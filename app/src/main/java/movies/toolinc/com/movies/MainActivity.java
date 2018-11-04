@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements OnMovieSelected {
     private final class MovieTask extends AsyncTask<String, Void, Optional<Movies>> {
         private static final String TAG = "MovieTask";
         private static final String BASE_URL = "https://api.themoviedb.org/3/%s?api_key=%s";
-        private static final String API_KEY = "77e8be3f0855555a30a2bbcde0c9b820";
+        private static final String API_KEY = "";
         private final Gson gson = new GsonBuilder()
                 .registerTypeAdapter(Movies.class, new Movies.Builder())
                 .create();
