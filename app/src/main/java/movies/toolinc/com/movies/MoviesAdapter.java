@@ -20,7 +20,7 @@ import movies.toolinc.com.movies.model.Movie;
  */
 public final class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesViewHolder> {
 
-    private static final String BASE_URL = "https://image.tmdb.org/t/p/w300/%s";
+    private static final String BASE_URL = "https://image.tmdb.org/t/p/w500/%s";
     private final ImmutableList<Movie> movies;
     private final OnMovieSelected onMovieSelected;
 
